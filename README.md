@@ -72,6 +72,7 @@ delay(1000);
 
 This is the actual breadboard setup for the Temperature & Light Logger.
 
+---------------------------------------------------
 
 ## Software & Usage
 Explain how to use your code with the Arduino IDE.
@@ -84,10 +85,15 @@ Explain how to use your code with the Arduino IDE.
 4.  Upload the sketch to your Arduino board.
 5.  Open the Serial Monitor (Ctrl+Shift+M) to view the real-time temperature and light readings.
 
+---------------------------------------------------
 
 **Author**
 	Nattacha Longthong 
 - Aspiring student computer engineer interested in embedded systems and space technology.
 
+---------------------------------------------------
+
 **My profile**
   https://github.com/NattachaLongthong
+
+  ---------------------------------------------------
