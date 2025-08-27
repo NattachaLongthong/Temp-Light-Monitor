@@ -5,6 +5,9 @@
 ## 📖 Project Description
 This is a simple Arduino project that measures temperature and light intensity using two analog sensors. The data is read every second and displayed on the Serial Monitor.
 
+ 
+This project is part of a learning path in embedded systems and basic electronics.
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
 [View License](./LICENSE)
 
