@@ -1,9 +1,16 @@
 # Arduino Temperature & Light Logger
 
-## Project Description
+------------------------------------------------------
+
+## 📖 Project Description
 This is a simple Arduino project that measures temperature and light intensity using two analog sensors. The data is read every second and displayed on the Serial Monitor.
 
-## Components Needed
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
+[View License](./LICENSE)
+
+---------------------------------------------------
+
+## 🔧 Hardware
 * Arduino board (Uno, Nano, etc.)
 * LM35 or TMP36 Temperature Sensor
 * Light-Dependent Resistor (LDR)
@@ -11,7 +18,9 @@ This is a simple Arduino project that measures temperature and light intensity u
 * Breadboard
 * jumper wires
 
-## Wiring Diagram
+---------------------------------------------------
+
+## 📐 Wiring
 ### Temperature Sensor (LM35/TMP36)
 * **VCC** -> Arduino **5V**
 * **GND** -> Arduino **GND**
@@ -21,6 +30,8 @@ This is a simple Arduino project that measures temperature and light intensity u
 * One leg of **LDR** -> Arduino **5V**
 * Other leg of **LDR** -> Arduino **A1**
 * **10k Ohm Resistor** from **A1** -> Arduino **GND**
+* 
+---------------------------------------------------
 
 ## Code
 ```cpp
@@ -49,10 +60,18 @@ Serial.println(lightRaw);
 delay(1000);
 }
 ```
+---------------------------------------------------
+## 📸 Real Project Photo
 
-## How to Use
-1.  Connect the components as shown in the wiring diagram.
-2.  Open the `Temp-Light-Logger.ino` file in the Arduino IDE.
-3.  Select the correct board and port under the `Tools` menu.
+
+
+## Software & Usage
+Explain how to use your code with the Arduino IDE.
+
+## 💻 Software & How to Use
+
+1.  Connect the components as shown in the wiring diagram above.
+2.  Open the **.ino** file in the Arduino IDE.
+3.  Make sure you have the correct board and port selected under the **Tools** menu.
 4.  Upload the sketch to your Arduino board.
-5.  Open the Serial Monitor (Ctrl+Shift+M) to view the real-time sensor data.
+5.  Open the Serial Monitor (Ctrl+Shift+M) to view the real-time temperature and light readings.
