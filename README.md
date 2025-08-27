@@ -30,7 +30,7 @@ This is a simple Arduino project that measures temperature and light intensity u
 * One leg of **LDR** -> Arduino **5V**
 * Other leg of **LDR** -> Arduino **A1**
 * **10k Ohm Resistor** from **A1** -> Arduino **GND**
-* 
+  
 ---------------------------------------------------
 
 ## Code
