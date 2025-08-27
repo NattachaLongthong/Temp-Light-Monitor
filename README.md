@@ -63,9 +63,8 @@ delay(1000);
 ---------------------------------------------------
 ## 📸 Real Project Phot
 
-![Temperature and Light Sensor Setup](S_23699468.jpg)
-![Detailed Sensor Wiring](S_23699470.jpg)
-![Breadboard Connection Overview](S_23699471.jpg)
+![Temperature and Light Sensor Setup](S__23699471.jpg)
+
 
 This is the actual breadboard setup for the Temperature & Light Logger.
 
